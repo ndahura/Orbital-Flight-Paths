@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_ships"
+        android:title="Ships"
+        />
+    <item android:id="@+id/nav_fuel"
+        android:title="Fuel"
+        />
+    <item android:id="@+id/nav_payloads"
+        android:title="Payloads"
+        />
+    <item android:id="@+id/nav_map"
+        android:title="Map"
+        />
+</menu>
