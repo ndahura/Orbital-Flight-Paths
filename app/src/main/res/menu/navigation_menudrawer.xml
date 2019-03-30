@@ -2,19 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/nav_ships"
-        android:icon="@mipmap/rocket-24"
+        android:icon="@mipmap/rocket_24"
         android:title="Ships"
         />
     <item android:id="@+id/nav_fuel"
-        android:icon="@mipmap/gas-station-24"
+        android:icon="@mipmap/gas_station_24"
         android:title="Fuel"
         />
     <item android:id="@+id/nav_payloads"
-        android:icon="@mipmap/payload-box-24"
+        android:icon="@mipmap/payload_box_24"
         android:title="Payloads"
         />
     <item android:id="@+id/nav_map"
-        android:icon="@mipmap/planet-24"
+        android:icon="@mipmap/planet_24"
         android:title="Map"
         />
 </menu>
