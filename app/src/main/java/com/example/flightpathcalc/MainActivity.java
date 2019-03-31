@@ -14,8 +14,8 @@ import java.util.TimerTask;
 public class MainActivity extends AppCompatActivity {
     Timer timer;
 
-    private DrawerLayout nDrawerLayout;
-    private ActionBarDrawerToggle nToggle;
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
         },3000);
 
         try {
-            nDrawerLayout= (DrawerLayout) findViewById(R.id.drawerLayout);
-            nToggle=new ActionBarDrawerToggle(this, nDrawerLayout, R.string.open, R.string.close);
-            nDrawerLayout.addDrawerListener(nToggle);
-            nToggle.syncState();
+            mDrawerLayout= (DrawerLayout) findViewById(R.id.drawerLayout);
+            mToggle=new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+            mDrawerLayout.addDrawerListener(mToggle);
+            mToggle.syncState();
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
         catch (Exception ex)
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (nToggle.onOptionsItemSelected(item))
+        if (mToggle.onOptionsItemSelected(item))
         {
             return true;
 

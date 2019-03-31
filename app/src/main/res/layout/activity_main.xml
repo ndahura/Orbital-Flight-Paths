@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:src="@drawable/splash"
         android:id="@+id/splashimg"
+        android:background="#00FFD5"
 
 
 
